@@ -6,9 +6,13 @@ This project focuses on predicting stock prices using three different models: AR
 
 ## Project Structure
 ├── data/                         # Directory containing the dataset
+
 │   └── stock_price_translated.csv # Stock price data used for model training and testing
+
 ├── notebooks/                    # Jupyter notebooks for model training and evaluation
+
 │   ├── ARIMA_Model.ipynb         # Notebook implementing ARIMA model
+
 │   ├── LSTM_Model.ipynb          # Notebook implementing LSTM model
 │   └── Prophet_Model.ipynb       # Notebook implementing Prophet model
 ├── models/                       # Directory to save trained models
