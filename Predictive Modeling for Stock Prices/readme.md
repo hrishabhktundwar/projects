@@ -9,19 +9,19 @@ This project focuses on predicting stock prices using three different models: AR
 
 │   └── stock_price_translated.csv # Stock price data used for model training and testing
 
-├── notebooks/                    # Jupyter notebooks for model training and evaluation
-
-│   ├── ARIMA_Model.ipynb         # Notebook implementing ARIMA model
-
-│   ├── LSTM_Model.ipynb          # Notebook implementing LSTM model
-│   └── Prophet_Model.ipynb       # Notebook implementing Prophet model
 ├── models/                       # Directory to save trained models
+
 │   ├── arima_model.pkl           # Saved ARIMA model
+
 │   └── lstm_model.h5             # Saved LSTM model
+
+│   └── prophet_model.pkl         # Saved Prophet model
+
 ├── src/                          # Python scripts for data processing and model building
+
 │   └── utils.py                  # Utility functions used across the project
+
 ├── README.md                     # Project README file
-└── requirements.txt              # Dependencies required to run the project
 
 
 ## Getting Started
