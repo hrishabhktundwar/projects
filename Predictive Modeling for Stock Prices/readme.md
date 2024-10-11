@@ -17,9 +17,9 @@ This project focuses on predicting stock prices using three different models: AR
 
 │   └── prophet_model.pkl         # Saved Prophet model
 
-├── src/                          # Python scripts for data processing and model building
+├── stock_price.py                # Python scripts for project
 
-│   └── utils.py                  # Utility functions used across the project
+├── stock_price.ipynb             # Jupyter notebook for project
 
 ├── README.md                     # Project README file
 
